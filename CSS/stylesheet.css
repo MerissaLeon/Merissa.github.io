@@ -1,0 +1,289 @@
+#wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "header header header logo"
+    "navigation navigation navigation navigation"
+    "content content content content"
+    "container container container container"
+    "footer footer footer footer";
+    text-align: center;
+}
+
+#header {
+    grid-area: header;
+    font-family: fantasy;
+    color: black;
+    background-color: #CB9CF2;
+    text-align: center;
+    font-size: large;
+    padding: 30px;
+    border: 5px solid black;
+}
+
+#inner-grid3 {
+    padding: 20px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+#inner-grid4 {
+    padding: 10px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+#navigation {
+    grid-area: navigation;
+    padding: 14px;
+    background-color: #9E7B9B;
+    border: 5px solid black;
+}
+
+#content {
+    grid-area: content;
+    border: 5px solid black;
+    background-color: #616283;
+    padding: 24px;
+}
+
+#container {
+    grid-area: container;
+    background-color: #374A67;
+    padding: 24px;
+    border: 5px solid black;
+}
+
+#footer {
+    grid-area: footer;
+    border: 5px solid black;
+}
+
+#logo {
+    grid-area: logo;
+    background-color: #CB9CF2;
+    padding: 30px;
+    border: 5px solid black;
+}
+
+#inner-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "home aboutme culture SWOT more";
+    padding: 8px;
+    border: 1px solid black;
+}
+
+#home {
+    grid-area: home;
+    padding: 10px;
+    background-color: white;
+    border: 10px solid;
+    border-color: #9E7B9B;
+}
+
+#aboutme {
+    grid-area: aboutme;
+    border: 10px solid;
+    border-color: #9E7B9B;
+    padding: 10px;
+    background-color: white;
+}
+
+#culture {
+    grid-area: culture;
+    border: 10px solid;
+    border-color: #9E7B9B;   
+    padding: 10px;
+    background-color: white;
+}
+
+#SWOT {
+    grid-area: SWOT;
+    border: 10px solid;
+    border-color: #9E7B9B;   
+    padding: 10px;
+    background-color: white;
+}
+
+#more {
+    grid-area: more;
+    border: 10px solid;
+    border-color: #9E7B9B;   
+    padding: 10px;
+    background-color: white;
+}
+
+#home, #aboutme, #culture, #SWOT, #more, #inner-grid {
+    text-decoration: underline;
+    border: 10px solid;
+    border-color: #9E7B9B;
+}
+
+#inner-grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "aboutme1 achievements achievements SWOT1 SWOT1text chinaflag";
+    background-color: #7688A2;
+    padding: 24px;
+    border: 5px solid black;
+}
+
+#inner-grid5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "trophy trophy goldmedalfirstplace certificate certificate"
+        "trophy trophy goldmedalfirstplace ribbon ribbonmedal";
+    background-color: #7688A2;
+    padding: 24px;
+    border: 5px solid #7688A2;
+}
+
+#aboutme1 {
+    grid-area: aboutme1;
+    border: 10px solid;
+    border-color: #7688A2;   
+    padding: 20px;
+    background-color: #7688A2;
+}
+
+#achievements {
+    grid-area: achievements;
+    border: 10px solid;
+    border-color: #7688A2;   
+    padding: 20px;
+    background-color: #7688A2;
+}
+
+#SWOT1 {
+    grid-area: SWOT1;
+    border: 10px solid;
+    border-color: #7688A2;   
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #7688A2;
+}
+
+#SWOT1text {
+    grid-area: SWOT1text;
+    border: 10px solid;
+    border-color: #7688A2;   
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #7688A2;
+}
+
+#chinaflag {
+    grid-area: chinaflag;
+    border: 10px solid;
+    border-color: #7688A2;   
+    padding: 20px;
+    background-color: #7688A2;
+}
+
+#trophy {
+    grid-area: trophy;
+    border: 10px solid;
+    border-color: #7688A2;   
+}
+
+#goldmedalfirstplace {
+    grid-area: goldmedalfirstplace;
+    border: 10px solid;
+    border-color: #7688A2;   
+}
+
+#certificate {
+    grid-area: certificate;
+    border: 10px solid;
+    border-color: #7688A2;   
+}
+
+#ribbon {
+    grid-area: ribbon;
+    border: 10px solid;
+    border-color: #7688A2;   
+}
+
+#ribbonmedal {
+    grid-area: ribbonmedal;
+    border: 10px solid;
+    border-color: #7688A2;   
+}
+
+#inner-grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "contact email emaillink emaillink copyrightlogo";
+    background-color: #0E1116;
+    padding: 32px;
+}
+
+#contact {
+    grid-area: contact;
+    background-color: #FFFFFF;
+    color: black;    
+    border: 1px solid;
+    border-color: black;
+}
+
+#email {
+    grid-area: email;
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid;
+    border-color: black;
+}
+
+#emaillink {
+    grid-area: emaillink;
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid;
+    border-color: black;
+}
+
+#copyrightlogo {
+    grid-area: copyrightlogo;
+    background-color: #FFFFFF;
+    color: black;
+    border: 1px solid;
+    border-color: black;
+}
+
+
+#inner-grid6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "pepeha pepeha"
+        "pepehawriting pepehawriting";
+    border: 1px solid;
+    border-color: #616283;
+}
+
+#pepeha {
+    grid-area: pepeha;
+    background-color: white;
+    border: 1px solid;
+    border-color: black;
+    padding: 12px;
+    text-decoration: underline;
+}
+
+#pepehawriting {
+    grid-area: pepehawriting;
+    background-color: white;
+    border: 1px solid;
+    border-color: black;
+    background-color: #A3A4D3;
+    padding: 96px;
+}
+
+#header, #logo, #navigation, #content, #container, #footer, #inner-grid1 {border: 5px solid black;}
